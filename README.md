@@ -11,9 +11,6 @@ As soon as I switch the controller type in `Configuration.h`, the project fails 
 ### Goal
 I want the menu and functions to stay **exactly the same as with the basic LCD**, just with graphical output instead of text.
 
-The project files are here:  
-👉 [insert your GitHub repo link here]
-
 Any help or suggestions would be **greatly appreciated**! 🙏
 
 Thanks in advance!
