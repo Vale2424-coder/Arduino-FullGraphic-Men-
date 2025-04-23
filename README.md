@@ -1,16 +1,15 @@
 ### Problem
-I'm working on a Marlin-based Arduino firmware that compiles and runs perfectly with the **RepRapDiscount Smart Controller** (text display), but I want to use a **RepRapDiscount Full Graphic Smart Controller** (128x64 ST7920).
+I'm working on a Marlin-based Arduino firmware that compiles and runs perfectly with the **RepRapDiscount Smart Controller** (standard 20x4 text display), but I want to switch to a **RepRapDiscount Full Graphic Smart Controller** (128x64 ST7920).
 
-As soon as I switch the controller type in `Configuration.h`, the project fails to compile.
+As soon as I change the display type in `Configuration.h`, the code fails to compile.
 
-### Errors I'm getting:
-- `lcd_implementation_drawmenu_setting_edit_float22` not declared
-- `fanSpeed` not declared
-- `WINDER_PIN` and `EXTRUDER_MOTOR_ON_OFF_PIN` not declared
+### My goal
+I want the exact same functionality and menu layout as with the normal LCD, but on the Full Graphic Display.
 
-### Goal
-I want the menu and functions to stay **exactly the same as with the basic LCD**, just with graphical output instead of text.
+### Important note
+⚠️ I'm not experienced in programming.  
+I'm using this project for school, and I'm trying to get it working with a graphical display. I don't understand all parts of the firmware, especially the custom menu rendering.
 
-Any help or suggestions would be **greatly appreciated**! 🙏
+Any help or suggestions would be **very much appreciated**! 🙏  
+Thank you!
 
-Thanks in advance!
